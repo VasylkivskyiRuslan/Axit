@@ -1,0 +1,1 @@
+"use strict";var a=document.querySelectorAll("tabs-title a");a.forEach(function(t){t.addEventListener(function(){this.parent.parent.children.forEach(function(t){t.classList.remove("active"),document.querySelector(t.getAttribute("href")).style.display="none",t.dataset.tab}),t.classList.add("active"),document.querySelector(t.getAttribute("href")).style.display="block"})});
